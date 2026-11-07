@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace
+}
+
+/* .body {
+    background-color: #ffedd8
+} */
+
+p {
+    font-family: cursive
+}
+
+
+
+.btn-1 {
+    background-color: #8b5e34;
+    border-radius: 5px 5px 5px 5px;
+    border: 0;
+    color: white;
+    height: 40px;
+}
+
+.btn-1:hover {
+    background-color: #a97340;
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: #a47148;
+    border: #ffffff solid 5px;
+    min-height: 700px;
+    font-family: cursive
+}
+
+.card h5 {
+    color: #583101;
+    font-family: 'Courier New', Courier, monospace
+}
+
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    color: #a47148;
+}
+
+.body {
+    /* background-image: url(https://img.magnific.com/vector-gratis/vector-fondo-diseno-textura-acuarela-marron-suave_1055-10979.jpg?semt=ais_hybrid&w=740&q=80); */
+    background-image: url(fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    backface-visibility: hidden;
+}
