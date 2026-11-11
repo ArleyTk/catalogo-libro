@@ -26,6 +26,24 @@ p {
 
 .btn-1:hover {
     background-color: #a97340;
+    color: white;
+}
+
+.btn-2 {
+    background-color: #e2c8b0;
+    color: white;
+}
+
+.btn-2:hover {
+    background-color: #f1ceae;
+    color: white;
+}
+
+.fade {
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    background-color: #58310137;
+
 }
 
 .card {
@@ -50,9 +68,24 @@ p {
 
 .body {
     /* background-image: url(https://img.magnific.com/vector-gratis/vector-fondo-diseno-textura-acuarela-marron-suave_1055-10979.jpg?semt=ais_hybrid&w=740&q=80); */
-    background-image: url(fondo.png);
+    background-image: url(./images/fondo.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     backface-visibility: hidden;
+}
+
+.modal-content {
+    background-color: #ffedd8;
+    color: #a47148;
+    margin-top: 250px;
+}
+
+.modal-content input {
+    color: #353535;
+    background-color: #fff7ee;
+}
+
+.modal-content textarea {
+    background-color: #fff7ee;
 }
