@@ -89,3 +89,61 @@ p {
 .modal-content textarea {
     background-color: #fff7ee;
 }
+
+
+
+.carrusel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+
+}
+
+.carousel-btn {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+button img {
+    width: 100%;
+    object-fit: contain;
+    padding: 0;
+}
+
+input {
+    border-radius: 25px;
+    border: none;
+}
+
+.carousel-box {
+    width: 400px;
+    height: 600px;
+    margin: 5px;
+}
+
+
+
+.carousel-wrapper {
+    display: flex;
+}
+
+.carousel {
+    display: flex;
+}
+
+@media screen and (max-width: 499px) {
+    .carousel-box {
+        width: 180px;
+        height: 180px;
+        margin: 5px;
+    }
+}

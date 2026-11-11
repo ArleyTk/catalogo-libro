@@ -21,6 +21,7 @@
                     Puedes solicitar un préstamo sin
                     necesidad de
                     iniciar sesión.</p>
+                <input class="input" type="text" placeholder="Libro de su preferencia">
             </div>
         </div>
 
@@ -31,17 +32,17 @@
             <div class="row">
                 <div class="col-4">
                     <div class="card" style="width: 22rem;">
-                        <img src="./images/cas.jpg" class="card-img-top" alt="Portada del libro Cien años de soledad"
-                            style="height: 400px;">
+                        <img src="./images/dexter.jpeg" class="card-img-top"
+                            alt="Portada del libro Cien años de soledad" style="height: 400px;">
                         <div class="card-body">
                             <span class="badge text-bg-warning align-self-start mb-4">Narrativa</span>
-                            <h5 class="card-title">Cien años de soledad
+                            <h5 class="card-title">Dexter
                             </h5>
                             <figcaption class="blockquote-footer mt-2">
-                                Gabriel García Marquez
+                                Jeff Lindsay
                             </figcaption>
-                            <p class="card-text">La saga de la familia Buendía en el mítico pueblo de Macondo, entre lo
-                                cotidiano y lo fantástico.</p>
+                            <p class="card-text">La doble vida de Dexter Morgan, un forense de la policía de Miami
+                                que canaliza sus impulsos homicidas bajo un estricto código moral.</p>
                             <button class="container btn-1" type="button" data-bs-toggle="modal"
                                 data-bs-target="#exampleModal">Solicitar préstamo</button>
                         </div>
@@ -76,8 +77,8 @@
                             <figcaption class="blockquote-footer mt-2">
                                 Robert C. Martin
                             </figcaption>
-                            <p class="card-text">Las aventuras de un hidalgo que confunde los libros de caballerías con
-                                la realidad, acompañado por su fiel escudero Sancho Panza.</p>
+                            <p class="card-text">Principios y buenas prácticas para escribir código legible, mantenible
+                                y profesional en el ambiente de trabajo.</p>
                             <button class="container btn-1" type="button" data-bs-toggle="modal"
                                 data-bs-target="#exampleModal">Solicitar préstamo</button>
                         </div>
@@ -147,6 +148,126 @@
             </div>
         </div>
     </main>
+    <hr>
+    <section class="carousel-container carrusel">
+        <section class="carousel-wrapper" style="margin-right: 60px;">
+
+            <aside class="buttons">
+
+                <div class="carousel-btn btn1 shadow-sm rounded">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1">
+                        <img src="./images/bhdt.jpeg" class="d-block w-100" alt="...">
+                    </button>
+                </div>
+
+                <div class="carousel-btn btn2 shadow-sm rounded">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2" class="">
+                        <img src="./images/dexter.jpeg" class="d-block w-100" alt="...">
+                    </button>
+                </div>
+
+                <div class="carousel-btn btn3 shadow-sm rounded">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3">
+                        <img src="./images/dqdlm.jpg" class="d-block" alt="...">
+                    </button>
+                </div>
+
+                <div class="carousel-btn btn4 shadow-sm rounded">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                        aria-label="Slide 4">
+                        <img src="./images/ej.jpeg" class="d-block" alt="...">
+                    </button>
+                </div>
+            </aside>
+
+            <aside class="carousel" id="carouselExampleIndicators"
+                class="carousel slide carousel-wrapper d-flex flex-row" data-bs-ride="carousel">
+                <section class="carousel-inner">
+
+                    <div class="carousel-box box1 carousel-item active  rounded">
+                        <div class="card bdy" style="width: 22rem;">
+                            <img src="./images/bhdt.jpeg" class="card-img-top"
+                                alt="Portada del libro Don Quijote de la Mancha" style="height: 400px; ">
+                            <div class="card-body">
+                                <span class="badge text-bg-primary align-self-start mb-2">Ciencia</span>
+                                <h5 class="card-title">Breve historia del tiempo
+                                </h5>
+                                <figcaption class="blockquote-footer mt-2">
+                                    Stephen Hawking
+                                </figcaption>
+                                <p class="card-text">Una explicación accesible de los agujeros negros, el
+                                    Big
+                                    Bang y la
+                                    naturaleza del espacio y el tiempo.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="carousel-box box2 carousel-item rounded">
+                        <div class="card" style="width: 22rem;">
+                            <img src="./images/dexter.jpeg" class="card-img-top"
+                                alt="Portada del libro Cien años de soledad" style="height: 400px;">
+                            <div class="card-body">
+                                <span class="badge text-bg-warning align-self-start mb-4">Narrativa</span>
+                                <h5 class="card-title">Dexter
+                                </h5>
+                                <figcaption class="blockquote-footer mt-2">
+                                    Jeff Lindsay
+                                </figcaption>
+                                <p class="card-text">La doble vida de Dexter Morgan, un forense de la policía de
+                                    Miami
+                                    que canaliza sus impulsos homicidas bajo un estricto código moral.</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-box box3 carousel-item rounded">
+                        <div class="card bdy" style="width: 22rem;">
+                            <img src="./images/dqdlm.jpg" class="card-img-top"
+                                alt="Portada del libro Don Quijote de la Mancha" style="height: 400px; ">
+                            <div class="card-body">
+                                <span class="badge text-bg-warning align-self-start mb-4">Narrativa</span>
+                                <h5 class="card-title">Don Quijote de la Mancha
+                                </h5>
+                                <figcaption class="blockquote-footer mt-2">
+                                    Miguel De Cervantes
+                                </figcaption>
+                                <p class="card-text">Las aventuras de un hidalgo que confunde los libros de caballerías
+                                    con
+                                    la realidad, acompañado por su fiel escudero Sancho Panza.</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-box  carousel-item rounded">
+                        <div class="card bdy" style="width: 22rem;">
+                            <img src="./images/ej.jpeg" class="card-img-top"
+                                alt="Portada del libro Don Quijote de la Mancha" style="height: 400px; ">
+                            <div class="card-body">
+                                <span class="badge text-bg-success align-self-start mb-2">Tecnología</span>
+                                <h5 class="card-title">Eloquent JavaScript
+                                </h5>
+                                <figcaption class="blockquote-footer mt-2">
+                                    Marijn Haverbeke
+                                </figcaption>
+                                <p class="card-text">Una introducción moderna a JavaScript, desde los
+                                    conceptos básicos
+                                    hasta la programación en el navegador.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </aside>
+        </section>
+    </section>
     <section>
         <div class=" modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
@@ -183,9 +304,7 @@
             </div>
         </div>
     </section>
-    <footer>
 
-    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
