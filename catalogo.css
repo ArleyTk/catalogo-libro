@@ -42,6 +42,10 @@ h3,
     color: white;
 }
 
+/* .body {
+    background-color: #ffedd8
+} */
+
 .btn-2:hover {
     background-color: #f1ceae;
     color: white;
@@ -57,7 +61,7 @@ h3,
 .card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     color: #a47148;
-    border: #ffffff solid 5px;
+    border: #583101 solid 4px;
     min-height: 700px;
     font-family: cursive
 }
@@ -74,13 +78,13 @@ h3,
     color: #a47148;
 }
 
-.body {
+/* .body {
     background-image: url(./images/fondo.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     backface-visibility: hidden;
-}
+} */
 
 .modal-content {
     background-color: #ffedd8;
@@ -129,6 +133,7 @@ button img {
 input {
     border-radius: 25px;
     border: none;
+    border: #583101 solid 1px
 }
 
 .carousel-box {
