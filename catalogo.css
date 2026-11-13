@@ -6,14 +6,22 @@ h1 {
     font-family: 'Courier New', Courier, monospace
 }
 
-/* .body {
-    background-color: #ffedd8
-} */
+
 
 p {
     font-family: cursive
 }
 
+h2,
+h3,
+.navbar-brand {
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+.navbar-brand {
+    color: #583101 !important;
+    font-weight: 700;
+}
 
 
 .btn-1 {
@@ -67,7 +75,6 @@ p {
 }
 
 .body {
-    /* background-image: url(https://img.magnific.com/vector-gratis/vector-fondo-diseno-textura-acuarela-marron-suave_1055-10979.jpg?semt=ais_hybrid&w=740&q=80); */
     background-image: url(./images/fondo.png);
     background-repeat: no-repeat;
     background-size: cover;
