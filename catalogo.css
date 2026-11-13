@@ -3,13 +3,11 @@
 }
 
 h1 {
-    font-family: 'Courier New', Courier, monospace
+    font-family: 'Courier New', Courier, monospace;
 }
 
-
-
 p {
-    font-family: cursive
+    font-family: cursive;
 }
 
 h2,
@@ -23,10 +21,11 @@ h3,
     font-weight: 700;
 }
 
+/* BOTONES */
 
 .btn-1 {
     background-color: #8b5e34;
-    border-radius: 5px 5px 5px 5px;
+    border-radius: 5px;
     border: 0;
     color: white;
     height: 40px;
@@ -42,35 +41,43 @@ h3,
     color: white;
 }
 
-/* .body {
-    background-color: #ffedd8
-} */
-
 .btn-2:hover {
     background-color: #f1ceae;
     color: white;
 }
 
+/* EFECTO MODAL */
+
 .fade {
     background: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(10px);
     background-color: #58310137;
-
 }
+
+/* TARJETAS */
 
 .card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     color: #a47148;
-    border: #583101 solid 4px;
+    background-color: #fbfbfb;
+    border: #ffffff solid 4px;
     min-height: 700px;
-    font-family: cursive
+    font-family: cursive;
+}
+
+.card2 {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: #a47148;
+    background-color: #fbfbfb;
+    border: #ffffff solid 4px;
+    min-height: 600px;
+    font-family: cursive;
 }
 
 .card h5 {
     color: #583101;
-    font-family: 'Courier New', Courier, monospace
+    font-family: 'Courier New', Courier, monospace;
 }
-
 
 .card:hover {
     transform: translateY(-10px);
@@ -78,13 +85,7 @@ h3,
     color: #a47148;
 }
 
-/* .body {
-    background-image: url(./images/fondo.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    backface-visibility: hidden;
-} */
+/* MODALES */
 
 .modal-content {
     background-color: #ffedd8;
@@ -101,7 +102,7 @@ h3,
     background-color: #fff7ee;
 }
 
-
+/* CARRUSEL */
 
 .carrusel {
     display: flex;
@@ -109,7 +110,6 @@ h3,
     justify-content: center;
     align-items: center;
     padding: 50px;
-
 }
 
 .carousel-btn {
@@ -133,7 +133,7 @@ button img {
 input {
     border-radius: 25px;
     border: none;
-    border: #583101 solid 1px
+    border: #583101 solid 1px;
 }
 
 .carousel-box {
@@ -142,8 +142,6 @@ input {
     margin: 5px;
 }
 
-
-
 .carousel-wrapper {
     display: flex;
 }
@@ -151,6 +149,93 @@ input {
 .carousel {
     display: flex;
 }
+
+body {
+    background-color: #fff7ee;
+    color: #a47148;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+[data-bs-theme="dark"] body {
+    background-color: #211a16;
+    color: #e0c3a5;
+}
+
+[data-bs-theme="dark"] .navbar-brand {
+    color: #e6bd91 !important;
+}
+
+[data-bs-theme="dark"] .btn-1 {
+    background-color: #79502f;
+    color: white;
+}
+
+[data-bs-theme="dark"] .btn-1:hover {
+    background-color: #966a43;
+}
+
+[data-bs-theme="dark"] .btn-2 {
+    background-color: #49372a;
+    color: #e0c3a5;
+}
+
+[data-bs-theme="dark"] .btn-2:hover {
+    background-color: #604832;
+    color: white;
+}
+
+[data-bs-theme="dark"] .fade {
+    background: rgba(20, 15, 12, 0.7);
+    backdrop-filter: blur(10px);
+}
+
+[data-bs-theme="dark"] .card {
+    background-color: #30251e;
+    color: #e0c3a5;
+    border: #795638 solid 4px;
+}
+
+[data-bs-theme="dark"] .card h5 {
+    color: #e6bd91;
+}
+
+[data-bs-theme="dark"] .card:hover {
+    color: #e0c3a5;
+}
+
+[data-bs-theme="dark"] .card2 {
+    background-color: #30251e;
+    color: #e0c3a5;
+    border: #795638 solid 4px;
+}
+
+[data-bs-theme="dark"] .card2 h5 {
+    color: #e6bd91;
+}
+
+[data-bs-theme="dark"] .card:hover {
+    color: #e0c3a5;
+}
+
+[data-bs-theme="dark"] .modal-content {
+    background-color: #30251e;
+    color: #e0c3a5;
+}
+
+[data-bs-theme="dark"] .modal-content input,
+[data-bs-theme="dark"] .modal-content textarea {
+    color: #e0c3a5;
+    background-color: #211a16;
+    border: #795638 solid 1px;
+}
+
+[data-bs-theme="dark"] input {
+    background-color: #30251e;
+    color: #e0c3a5;
+    border: #795638 solid 1px;
+}
+
 
 @media screen and (max-width: 499px) {
     .carousel-box {
